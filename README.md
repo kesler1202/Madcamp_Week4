@@ -43,6 +43,7 @@ Unity의 Animator를 적극 활용하여, 각 모션 사이를 Trigger와 Boolea
 
 ### In-Game Scene
 <img width="669" alt="In-Game" src="https://github.com/kesler1202/MadcampWeek4/assets/80826652/4eeb29bb-9ec6-4111-8074-ae141afbce1b">
+
 1. HP Bar
 2. Stamina Bar (Dodge 쿨다운 표시)
 3. Time Clock (시간 제한)
