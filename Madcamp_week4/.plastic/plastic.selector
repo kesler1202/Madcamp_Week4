@@ -1,0 +1,4 @@
+repository "Madcamp_week4@shot_yun_24@cloud"
+  path "/"
+    smartbranch "/main/sdy"  
+     
