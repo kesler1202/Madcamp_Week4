@@ -30,6 +30,9 @@ Unity의 Animator를 적극 활용하여, 각 모션 사이를 Trigger와 Boolea
 ![animator gif](https://github.com/kesler1202/MadcampWeek4/assets/80826652/3ad7e1c2-34ba-4b07-8849-6f7f3fe2ddfb)
 
 ### Collider
+
+<img width="550" alt="Colliders" src="https://github.com/kesler1202/MadcampWeek4/assets/80826652/49890cc6-575f-43cf-ad6a-2670e032d346">
+
 각 격투 동작에 해당하는 부분(손, 발)에 Collider를 만들고, 적의 Collider와 충돌 시 동시에 판정이 들어가지 않고 먼저 누른 쪽에 우선순위를 부여하여 타격 판정을 내리도록 했습니다.
 -예를 들어, 플레이어에 적용된 script에서 발차기 동작 애니메이션을 실행 시 발에 별개로 적용된 script 내부 함수를 실행시켜 발차기 동작 애니메이션 프레임을 밀리 초 단위로 계산하여 발에 따로 달린 collider를 활성화/비활성화 했습니다.
 
@@ -47,6 +50,7 @@ Unity의 Animator를 적극 활용하여, 각 모션 사이를 Trigger와 Boolea
 1. HP Bar
 2. Stamina Bar (Dodge 쿨다운 표시)
 3. Time Clock (시간 제한)
+   
 ![play gif](https://github.com/kesler1202/MadcampWeek4/assets/80826652/dc416b94-abfd-403e-8045-bbb246a40f5c)
 
 ### Training Scene
